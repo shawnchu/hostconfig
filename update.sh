@@ -6,7 +6,7 @@
 # 5 22   *   *   *    ~/hostconfig/update.sh
 #
 # Retrieve public IP from: https://github.com/shawnchu/hostconfig/blob/main/host.conf
-cd ~/hostconfig || exit
+cd ~/src/hostconfig || exit
 published=$(cat host.conf)
 my_ip=$(curl -4 ifconfig.me)
 
